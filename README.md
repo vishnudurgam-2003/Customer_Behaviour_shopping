@@ -1,134 +1,115 @@
-# Customer_Behaviour_shopping
+🛒 Customer Behaviour Shopping Analysis
 
-Project Summary
+📖 About the Project
 
-Customer Behaviour Shopping Analysis is a data analytics project designed to analyze customer purchasing patterns using SQL, Python Exploratory Data Analysis (EDA), and Power BI. The project focuses on transforming raw transactional data into structured insights that support business decision-making, customer segmentation, and sales optimization.
+This project analyzes customer shopping behavior using SQL, Python (EDA), and Power BI to extract actionable business insights. The goal is to understand purchasing patterns, customer trends, and sales performance through data analysis and interactive dashboards.
 
-Key Skills & Technologies
+This repository demonstrates an end-to-end data analytics workflow, from raw data to business-ready insights.
 
-SQL (Joins, Subqueries, CTEs, Aggregations, Window Functions)
+🚀 Tech Stack
 
-Python (Pandas, NumPy, Matplotlib, Seaborn)
+SQL – Data extraction, joins, aggregations, KPI calculations
 
-Exploratory Data Analysis (EDA)
+Python – Data cleaning and exploratory data analysis (EDA)
 
-Power BI (Data Modeling, DAX, Interactive Dashboards)
+Pandas, NumPy, Matplotlib, Seaborn
 
-Data Cleaning & Preprocessing
+Power BI – Interactive dashboard, KPIs, slicers, visual analytics
 
-Business Intelligence & Reporting
-
-Data Visualization & KPI Analysis
-
-Project Objectives
-
-Analyze customer shopping behavior and purchasing trends
-
-Identify high-value and repeat customers
-
-Evaluate category-wise and time-based sales performance
-
-Build interactive dashboards for business stakeholders
-
-Enable data-driven decision-making through insights
-
-Dataset Overview
-
-The dataset consists of structured transactional customer data including:
-
-Customer ID
-
-Product Category
-
-Purchase Date
-
-Order Quantity
-
-Sales Amount
-
-Payment Method
-
-Methodology
-Data Extraction & Analysis (SQL)
-
-Extracted and filtered transactional data using SQL queries
-
-Applied JOIN, GROUP BY, HAVING, subqueries, and CTEs
-
-Calculated KPIs such as:
-
-Total Revenue
-
-Average Order Value (AOV)
-
-Customer Purchase Frequency
-
-Data Cleaning & EDA (Python)
-
-Handled missing values and data inconsistencies
-
-Performed statistical and exploratory analysis on customer behavior
-
-Conducted:
-
-Customer segmentation analysis
-
-Category-wise sales analysis
-
-Time-series trend analysis
-
-Visualized insights using charts and plots
-
-Business Intelligence & Visualization (Power BI)
-
-Designed an interactive Power BI dashboard
-
-Implemented:
-
-KPI cards
-
-Slicers and filters
-
-Drill-down functionality
-
-Analyzed:
-
-Monthly sales trends
-
-Top-performing products and customers
-
-Category contribution to revenue
-
-Key Insights & Outcomes
-
-Identified repeat customers contributing a significant portion of total revenue
-
-Discovered top-selling product categories driving business growth
-
-Observed seasonal patterns in customer purchasing behavior
-
-Improved visibility into customer performance metrics
-
-Project Structure
+📂 Repository Structure
 Customer-Behaviour-Shopping/
 │
-├── SQL/
-│   └── customer_analysis_queries.sql
+├── customer_shopping_data.csv
+│   └── Raw customer shopping dataset
 │
-├── Python/
-│   └── customer_behavior_eda.ipynb
+├── Customer_analysis.sql
+│   └── SQL queries for data extraction and analysis
 │
-├── PowerBI/
-│   └── Customer_Behavior_Dashboard.pbix
+├── customer_shopping.ipynb
+│   └── Python notebook for data cleaning and EDA
+│
+├── customer_behaviour_dashboard.pbix
+│   └── Power BI interactive dashboard
 │
 └── README.md
 
-Business Impact
+🔍 Project Workflow
+1️⃣ Data Analysis using SQL
 
-Supports strategic decision-making using data insights
+Extracted customer and transaction data
 
-Improves customer targeting and retention strategies
+Performed:
 
-Enhances sales forecasting and performance tracking
+Filtering and sorting
 
-Demonstrates end-to-end data analytics workflow
+JOIN operations
+
+GROUP BY and aggregations
+
+Calculated metrics such as:
+
+Total sales
+
+Average order value
+
+Customer purchase frequency
+
+2️⃣ Exploratory Data Analysis (Python)
+
+Cleaned missing and inconsistent data
+
+Analyzed:
+
+Customer purchasing behavior
+
+Category-wise sales performance
+
+Time-based sales trends
+
+Created visualizations to identify patterns and outliers
+
+3️⃣ Power BI Dashboard
+
+Designed an interactive business dashboard
+
+Included:
+
+KPI cards (Revenue, Orders, Customers)
+
+Category and customer-level insights
+
+Monthly and trend-based analysis
+
+Enabled filtering using slicers for better decision-making
+
+📊 Key Insights
+
+Repeat customers contribute a significant portion of total revenue
+
+Certain product categories dominate overall sales
+
+Seasonal trends influence customer purchasing behavior
+
+High-value customers show higher average order value
+
+💼 Business Use Case
+
+Helps businesses understand customer behavior
+
+Supports sales optimization and customer segmentation
+
+Enables management to track performance using dashboards
+
+Improves data-driven decision-making
+
+🧠 Skills Demonstrated
+
+Data Cleaning & Preprocessing
+
+SQL Query Optimization
+
+Exploratory Data Analysis (EDA)
+
+Business Intelligence & Reporting
+
+Data Visualization & Dashboard Design
